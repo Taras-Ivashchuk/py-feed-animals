@@ -38,7 +38,7 @@ class Dog(Animal):
         print("The slippers delivered!")
 
 
-def feed_animals(animals: list[Animal]) -> None:
+def feed_animals(animals: list[Animal]) -> int:
     food_eaten = 0
     for animal in animals:
         if animal.is_hungry:
